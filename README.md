@@ -20,7 +20,8 @@ Given a customer's contract type, tenure, payment method, and service details, t
 
 ## Demo
 
-![App Screenshot](c:\Users\Muhammad Sami\Pictures\Screenshots\Screenshot 2026-06-06 231224.png)
+![App Screenshot](screenshots/ss1.png)
+![App Screenshot](screenshots/ss2.png)
 
 > Enter customer details in the sidebar → Click Predict → Get prediction, explanation, and risk gauge
 
