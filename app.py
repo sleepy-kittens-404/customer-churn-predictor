@@ -76,8 +76,8 @@ encoded = (
 input_transformed = np.array(encoded).reshape(1, -1)
 
 if st.button("Predict"):
-    prediction = model.predict(input_transformed)[0]
     probability = model.predict_proba(input_transformed)[0][1]
+    prediction = int(probability >= 0.4)
     
     if prediction == 1:
         st.error(f"⚠️ This customer is likely to churn. Probability: {probability:.2%}")
